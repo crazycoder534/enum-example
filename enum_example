@@ -1,0 +1,24 @@
+enum Shape{ rectangle, square, circle, pentagone, hexagone }
+
+String checkTypeOfShape(Shape shape){
+  if(shape == Shape.rectangle){
+    return "Shape is rectangle!";
+  }
+  if(shape == Shape.square){
+    return "Shape is square!";
+  }
+  if(shape == Shape.square){
+    return "Shape is square!";
+  }
+  if(shape == Shape.pentagone){
+    return "Shape is pentagone!";
+  }
+  if(shape == Shape.hexagone){
+    return "Shape is hexagone!";
+  }
+  return "Undefined shape...!";
+}
+// EXAMPLE
+void main() {
+  debugPrint(checkTypeOfShape(Shape.square)); /* => It will print [Shape is square!] */
+}
